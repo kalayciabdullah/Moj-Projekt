@@ -81,8 +81,8 @@ const CreateInvoice = ({ isModalOpen, setIsModalOpen }) => {
           name={"paymentMode"}
         >
           <Select placeholder="Wybierz...">
-            <Select.Option value="Nakit">Gotówka</Select.Option>
-            <Select.Option value="Kredi Kartı">Karta</Select.Option>
+            <Select.Option value="Gotówka">Gotówka</Select.Option>
+            <Select.Option value="Karta">Karta</Select.Option>
           </Select>
         </Form.Item>
         <Card>
